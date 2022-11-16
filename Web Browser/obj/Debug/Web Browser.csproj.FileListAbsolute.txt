@@ -13,3 +13,4 @@ C:\Users\Zakm7\source\repos\Web Browser\bin\Debug\EntityFramework.xml
 C:\Users\Zakm7\source\repos\Web Browser\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Zakm7\source\repos\Web Browser\obj\Debug\Web_Browser.WebSpace.resources
 C:\Users\Zakm7\source\repos\Web Browser\obj\Debug\Web Browser.csproj.CopyComplete
+C:\Users\Zakm7\source\repos\Web Browser\obj\Debug\Web Browser.csproj.SuggestedBindingRedirects.cache
