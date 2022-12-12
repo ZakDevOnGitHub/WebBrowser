@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Web_Browser
@@ -733,6 +734,17 @@ namespace Web_Browser
         public void Open()
         {
             CloseButton.Visible = true;
+        }
+
+        private void ApplyColorFromPicBox(object sender, EventArgs e)
+        {
+            var origin = (PictureBox)sender;
+            ApplyColorToForm(origin.BackColor);
+        }
+
+        private void ApplyColorToForm(Color color)
+        {
+            f.BackColor = color;
         }
     }
 }

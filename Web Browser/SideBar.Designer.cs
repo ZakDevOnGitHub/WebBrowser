@@ -363,6 +363,7 @@ namespace Web_Browser
             this.pictureBox49.Size = new System.Drawing.Size(21, 20);
             this.pictureBox49.TabIndex = 247;
             this.pictureBox49.TabStop = false;
+            this.pictureBox49.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox48
             // 
@@ -373,6 +374,7 @@ namespace Web_Browser
             this.pictureBox48.Size = new System.Drawing.Size(21, 20);
             this.pictureBox48.TabIndex = 246;
             this.pictureBox48.TabStop = false;
+            this.pictureBox48.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox47
             // 
@@ -383,6 +385,7 @@ namespace Web_Browser
             this.pictureBox47.Size = new System.Drawing.Size(21, 20);
             this.pictureBox47.TabIndex = 245;
             this.pictureBox47.TabStop = false;
+            this.pictureBox47.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox46
             // 
@@ -393,6 +396,7 @@ namespace Web_Browser
             this.pictureBox46.Size = new System.Drawing.Size(21, 20);
             this.pictureBox46.TabIndex = 244;
             this.pictureBox46.TabStop = false;
+            this.pictureBox46.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox45
             // 
@@ -403,6 +407,7 @@ namespace Web_Browser
             this.pictureBox45.Size = new System.Drawing.Size(21, 20);
             this.pictureBox45.TabIndex = 243;
             this.pictureBox45.TabStop = false;
+            this.pictureBox45.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox44
             // 
@@ -413,6 +418,7 @@ namespace Web_Browser
             this.pictureBox44.Size = new System.Drawing.Size(21, 20);
             this.pictureBox44.TabIndex = 242;
             this.pictureBox44.TabStop = false;
+            this.pictureBox44.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox43
             // 
@@ -423,6 +429,7 @@ namespace Web_Browser
             this.pictureBox43.Size = new System.Drawing.Size(21, 20);
             this.pictureBox43.TabIndex = 241;
             this.pictureBox43.TabStop = false;
+            this.pictureBox43.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox42
             // 
@@ -583,6 +590,7 @@ namespace Web_Browser
             this.pictureBox27.Size = new System.Drawing.Size(21, 20);
             this.pictureBox27.TabIndex = 225;
             this.pictureBox27.TabStop = false;
+            this.pictureBox27.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox26
             // 
@@ -593,6 +601,7 @@ namespace Web_Browser
             this.pictureBox26.Size = new System.Drawing.Size(21, 20);
             this.pictureBox26.TabIndex = 224;
             this.pictureBox26.TabStop = false;
+            this.pictureBox26.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox25
             // 
@@ -603,6 +612,7 @@ namespace Web_Browser
             this.pictureBox25.Size = new System.Drawing.Size(21, 20);
             this.pictureBox25.TabIndex = 223;
             this.pictureBox25.TabStop = false;
+            this.pictureBox25.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox24
             // 
@@ -613,6 +623,7 @@ namespace Web_Browser
             this.pictureBox24.Size = new System.Drawing.Size(21, 20);
             this.pictureBox24.TabIndex = 222;
             this.pictureBox24.TabStop = false;
+            this.pictureBox24.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox23
             // 
@@ -623,6 +634,7 @@ namespace Web_Browser
             this.pictureBox23.Size = new System.Drawing.Size(21, 20);
             this.pictureBox23.TabIndex = 221;
             this.pictureBox23.TabStop = false;
+            this.pictureBox23.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox22
             // 
@@ -634,6 +646,7 @@ namespace Web_Browser
             this.pictureBox22.Size = new System.Drawing.Size(21, 20);
             this.pictureBox22.TabIndex = 220;
             this.pictureBox22.TabStop = false;
+            this.pictureBox22.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox21
             // 
@@ -644,6 +657,7 @@ namespace Web_Browser
             this.pictureBox21.Size = new System.Drawing.Size(21, 20);
             this.pictureBox21.TabIndex = 219;
             this.pictureBox21.TabStop = false;
+            this.pictureBox21.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox20
             // 
@@ -654,6 +668,7 @@ namespace Web_Browser
             this.pictureBox20.Size = new System.Drawing.Size(21, 20);
             this.pictureBox20.TabIndex = 218;
             this.pictureBox20.TabStop = false;
+            this.pictureBox20.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox19
             // 
@@ -664,6 +679,7 @@ namespace Web_Browser
             this.pictureBox19.Size = new System.Drawing.Size(21, 20);
             this.pictureBox19.TabIndex = 217;
             this.pictureBox19.TabStop = false;
+            this.pictureBox19.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox18
             // 
@@ -674,6 +690,7 @@ namespace Web_Browser
             this.pictureBox18.Size = new System.Drawing.Size(21, 20);
             this.pictureBox18.TabIndex = 216;
             this.pictureBox18.TabStop = false;
+            this.pictureBox18.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox17
             // 
@@ -684,6 +701,7 @@ namespace Web_Browser
             this.pictureBox17.Size = new System.Drawing.Size(21, 20);
             this.pictureBox17.TabIndex = 215;
             this.pictureBox17.TabStop = false;
+            this.pictureBox17.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox16
             // 
@@ -694,6 +712,7 @@ namespace Web_Browser
             this.pictureBox16.Size = new System.Drawing.Size(21, 20);
             this.pictureBox16.TabIndex = 214;
             this.pictureBox16.TabStop = false;
+            this.pictureBox16.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox15
             // 
@@ -704,6 +723,7 @@ namespace Web_Browser
             this.pictureBox15.Size = new System.Drawing.Size(21, 20);
             this.pictureBox15.TabIndex = 213;
             this.pictureBox15.TabStop = false;
+            this.pictureBox15.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox14
             // 
@@ -714,6 +734,7 @@ namespace Web_Browser
             this.pictureBox14.Size = new System.Drawing.Size(21, 20);
             this.pictureBox14.TabIndex = 212;
             this.pictureBox14.TabStop = false;
+            this.pictureBox14.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox13
             // 
@@ -724,6 +745,7 @@ namespace Web_Browser
             this.pictureBox13.Size = new System.Drawing.Size(21, 20);
             this.pictureBox13.TabIndex = 211;
             this.pictureBox13.TabStop = false;
+            this.pictureBox13.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox12
             // 
@@ -734,6 +756,7 @@ namespace Web_Browser
             this.pictureBox12.Size = new System.Drawing.Size(21, 20);
             this.pictureBox12.TabIndex = 210;
             this.pictureBox12.TabStop = false;
+            this.pictureBox12.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // pictureBox11
             // 
@@ -744,6 +767,7 @@ namespace Web_Browser
             this.pictureBox11.Size = new System.Drawing.Size(21, 20);
             this.pictureBox11.TabIndex = 209;
             this.pictureBox11.TabStop = false;
+            this.pictureBox11.Click += new System.EventHandler(this.ApplyColorFromPicBox);
             // 
             // HomeSet
             // 
