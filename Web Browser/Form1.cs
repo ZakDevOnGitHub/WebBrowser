@@ -41,7 +41,8 @@ namespace Web_Browser
 		}
 
 		private void Form1_Load(object sender, EventArgs e)
-		{
+        {
+            sideBar1.Visible = false;
 			CefSettings settings = new CefSettings();
 			Cef.Initialize(settings);
 			SearchURLBOX.Text = "https://www.bing.com";
@@ -72,8 +73,8 @@ namespace Web_Browser
 
         private void SettingsButton_Click(object sender, EventArgs e)
         {
-			// TODO
-            ;
+            sideBar1.Visible = true;
+            sideBar1.Open();
         }
 
 		private void SubtractBookmarkButton_Click_1(object sender, EventArgs e)

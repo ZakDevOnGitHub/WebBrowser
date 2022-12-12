@@ -726,7 +726,13 @@ namespace Web_Browser
 
         private void CloseButton_Click_1(object sender, EventArgs e)
         {
+            CloseButton.Visible = false;
             ((WebSpace)f).CloseSide();
+        }
+
+        public void Open()
+        {
+            CloseButton.Visible = true;
         }
     }
 }
