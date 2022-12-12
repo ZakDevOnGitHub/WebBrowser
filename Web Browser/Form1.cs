@@ -39,8 +39,9 @@ namespace Web_Browser
 
 		private void pictureBox2_Click(object sender, EventArgs e)
 		{
-			chrome.Refresh();
-		}
+            chrome.Reload(ignoreCache: true);
+            chrome.Refresh();
+        }
 
 		private void pictureBox3_Click(object sender, EventArgs e)
 		{
