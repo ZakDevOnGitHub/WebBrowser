@@ -858,5 +858,13 @@ namespace Web_Browser
 		{
 
 		}
+
+		private void SearchURLBOX_KeyUp(object sender, KeyEventArgs e)
+		{
+            if (e.KeyCode == Keys.Enter)
+            {
+				chrome.Load(SearchURLBOX.Text);
+            }
+        }
 	}
 }
