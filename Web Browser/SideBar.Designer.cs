@@ -307,6 +307,7 @@ namespace Web_Browser
             this.CloseButton.TabIndex = 264;
             this.CloseButton.Text = "X";
             this.CloseButton.UseVisualStyleBackColor = false;
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click_1);
             // 
             // VersionLabel
             // 

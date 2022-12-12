@@ -723,5 +723,10 @@ namespace Web_Browser
             BookmarkImage.Show();
             SubtractBookmarkButton.Show();
         }
+
+        private void CloseButton_Click_1(object sender, EventArgs e)
+        {
+            ((WebSpace)f).CloseSide();
+        }
     }
 }

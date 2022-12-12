@@ -88,5 +88,10 @@ namespace Web_Browser
 				chrome.Load(SearchURLBOX.Text);
             }
         }
-	}
+
+        public void CloseSide()
+        {
+            sideBar1.Visible = false;
+        }
+    }
 }
